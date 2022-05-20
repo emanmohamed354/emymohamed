@@ -80,13 +80,11 @@ body {
 
 @media screen and (max-width: 600px) {
   .column {
-    width: 100%;
+    width: 50%;
   }
 }
 
-#nnn {
-  display: none;
-}
+
 .footer-basic {
   padding: 40px 0;
   background-color: #ffffff;
@@ -318,5 +316,9 @@ height: 30vw;}
   {
     font-size: 1.8em;
   }
+	.mo
+{
+  font-size: 2.4vw;
+}
 
 }
