@@ -293,12 +293,12 @@ footer{
 	display: inline-block;
 	width: 35px;
 	height: 35px;
-	cursor: pointer;
-	background-color:  #e0641c;
+	
+	background-color:  #ffffff ;
 	border-radius: 2px;
 
 	font-size: 20px;
-	color: #ffffff;
+	color: #e0641c;
 	text-align: center;
 	line-height: 35px;
 
