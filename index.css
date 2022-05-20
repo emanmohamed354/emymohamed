@@ -141,6 +141,7 @@ div {
   .column {
     width: 50%;
   }
+ 
 }
 
 @media screen and (max-width: 600px) {
@@ -179,7 +180,6 @@ footer{
 	vertical-align: top;
 }
 
-/* Footer left */
 
 .footer-distributed .footer-left{
 	width: 30%;
@@ -191,7 +191,6 @@ footer{
 	margin: 0;
 }
 
-/* The company logo */
 
 .footer-distributed .footer-left img{
 	width: 30%;
@@ -201,7 +200,6 @@ footer{
 	color:  #e0641c;
 }
 
-/* Footer links */
 
 .footer-distributed .footer-links{
 	color:  #000000;
@@ -222,7 +220,6 @@ footer{
 	margin: 0;
 }
 
-/* Footer Center */
 
 .footer-distributed .footer-center{
 	width: 35%;
@@ -267,6 +264,7 @@ footer{
 }
 
 
+/* Footer Right */
 
 .footer-distributed .footer-right{
 	width: 30%;
@@ -309,9 +307,13 @@ footer{
 	margin-bottom: 5px;
 }
 
+/* Here is the code for Responsive Footer */
+/* You can remove below code if you don't want Footer to be responsive */
 
-
-
+.lll
+{
+  height: 28vw;
+}
 @media (max-width: 880px) {
 
 	.footer-distributed .footer-left,
@@ -326,5 +328,14 @@ footer{
 	.footer-distributed .footer-center i{
 		margin-left: 0;
 	}
+  .lll
+  {
+    height: 40vw;
+    padding-bottom: 10vw;
+  }
+  #texx ,#klj
+  {
+    height: 30vw;
+  }
 
 }
