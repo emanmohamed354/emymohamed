@@ -20,13 +20,13 @@
   width: 14.29%;
 }
 img {
-  width: 100%;
+  width: 100%; height: 100%;
 }
 .cont a {
   color: #b66845;
   text-align: center;
   text-decoration: none;
-  font-size: 1.3rem;
+  font-size: 3vw;
   height: 100%;
   width: 100%;
 }
