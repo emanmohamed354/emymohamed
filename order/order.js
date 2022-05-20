@@ -24,7 +24,7 @@ function s()
     }
     else{
     ttdd.innerHTML=`you have order ${j}`;}
-     ttdd.style.cssText=" text-align: center;height: 2em;width: 20%;"
+     ttdd.style.cssText=" text-align: center;height: 6vw;width: 23%;"
       
 
 }
