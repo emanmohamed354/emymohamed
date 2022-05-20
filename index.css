@@ -111,7 +111,6 @@ div {
   height: 25vw;
 }
 @media only screen and (max-width: 800px) {
-  /* For mobile phones: */
 .nav {
     font-size: 0.8em;
   }
@@ -142,14 +141,6 @@ div {
   .column {
     width: 50%;
   }
-  /* .list-inline
-{
-    margin-left: 25vw;
-}
-.sub
-{
-    margin-left: 32vw;
-} */
 }
 
 @media screen and (max-width: 600px) {
@@ -276,7 +267,6 @@ footer{
 }
 
 
-/* Footer Right */
 
 .footer-distributed .footer-right{
 	width: 30%;
@@ -319,8 +309,7 @@ footer{
 	margin-bottom: 5px;
 }
 
-/* Here is the code for Responsive Footer */
-/* You can remove below code if you don't want Footer to be responsive */
+
 
 
 @media (max-width: 880px) {
