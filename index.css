@@ -146,7 +146,7 @@ div {
 
 @media screen and (max-width: 600px) {
   .column {
-    width: 100%;
+    width: 50%;
   }
 }
 
@@ -349,6 +349,10 @@ margin-top: 5vw;}
         font-size: 5vw;
 
   }
+	.mo
+{
+  font-size: 2.4vw;
+}
 
 }
 
