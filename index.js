@@ -110,7 +110,7 @@ const checkPassword = () => {
     if (!isRequired(password)) {
         showError(passwordEl, 'Password cannot be blank.');
     } else if (!isPasswordSecure(password)) {
-        showError(passwordEl, 'Password must has 8 character, must start with 1 uppercase character, 1 number, and 1 special character in (!@#$%^&*) , no white space allowed ');
+        showError(passwordEl, 'Password must has 8 character, must start with 1 uppercase character, 1 number, and 1 special character in (!@#$%^-_&*) , no white space allowed ');
     } else {
         showSuccess(passwordEl);
         valid = true;
@@ -160,7 +160,7 @@ const isEmailValid = (email) => {
 };
 
 const isPasswordSecure = (password) => {
-    const re = /^[A-Z](?=.*[0-9])(?=.*[!@#\$%\^&\*])(?!.*\s).{7}$/;
+    const re = /^[A-Z](?=.*[0-9])(?=.*[!@#\$%\^&-_\*])(?!.*\s).{7}$/;
     return re.test(password);
 };
 const isphoneCorrect = (phone) => {
