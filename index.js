@@ -160,10 +160,9 @@ const isEmailValid = (email) => {
 };
 
 const isPasswordSecure = (password) => {
-    const re = /^[A-Z](?=.*[0-9])(?=.*[!@#\$%\^&-_\*])(?!.*\s).{7}$/;
+    const re = /^[A-Z](?=.*[0-9])(?=.*[!@_#-\$%--\^&-\*])(?!.*\s).{7}$/;
     return re.test(password);
 };
-
 const isphoneCorrect = (phone) => {
     const re = /^01[0125][0-9]{8}$/;
     return re.test(phone);
